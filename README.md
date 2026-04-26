@@ -10,16 +10,14 @@
    python -m venv venv
    ```
 3. Activate Virtual Environment  
-   **Windows**
+   **For Windows**
    ```bash
    venv\Scripts\activate
     ```
-   **mac**  
+   **For Mac**  
    ```bash
    source venv/bin/activate
     ```
-   for windows: ``` venv\Scripts\activate ```  
-   for mac: ``` source venv/bin/activate ```
 5. Install Dependencies
    ``` bash
    pip install -r requirements.txt
@@ -30,16 +28,22 @@
    ```
    You should see: `Flask, mysql-connector-python, python-dotenv`
 6. Environment Configuration
-   for windows: `copy .env.example .env`
-   for mac: `cp .env.example .env `
+   **For Windows**
+   ```bash
+   copy .env.example .env
+    ```
+   **For Mac**  
+   ```bash
+   cp .env.example .env
+    ```
    Then edit the .env file:
-   ``` bash
-   DB_HOST=localhost
-   DB_USER=root
-   DB_PASSWORD=your_mysql_password
-   DB_NAME=cinema
-   ```
-7. Setup Database
+   `
+   DB_HOST=localhost  
+   DB_USER=root  
+   DB_PASSWORD=your_mysql_password  
+   DB_NAME=cinema  
+   `
+8. Setup Database
    6.1. Open MySQL  
    6.2. Run the SQL script provided in this project  
    6.3. This will create all required tables, views, and sample data  
