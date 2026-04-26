@@ -37,12 +37,12 @@
    cp .env.example .env
     ```
    Then edit the .env file:
-   `
+   ```
    DB_HOST=localhost  
    DB_USER=root  
    DB_PASSWORD=your_mysql_password  
    DB_NAME=cinema  
-   `
+   ```
 8. Setup Database
    6.1. Open MySQL  
    6.2. Run the SQL script provided in this project  
