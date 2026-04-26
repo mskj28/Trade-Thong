@@ -7,6 +7,26 @@ This project is a cinema booking system that allows users to browse movies, sele
 1. Customer – Browse movies, book seats, make payments
 2. Staff – Manage bookings and verify transactions
 3. Admin – Manage movies, showtimes, and users
+
+## Functional Requirements
+1. The system must allow users to browse movies and showtimes
+2. The system must allow users to reserve seats
+3. The system must prevent double booking
+4. The system must allow booking cancellation
+5. The system must calculate total price automatically
+6. The system must manage payment status
+
+## Database Design (ADD ER IF POSSIBLE)
+
+## Project Structure
+backend/
+├── app.py
+├── routes/
+├── db.py
+├── config.py
+├── requirements.txt
+├── .env.example
+
 ## Project Setup
 1. Clone the repository
    ``` bash
