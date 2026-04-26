@@ -56,7 +56,7 @@
    ```
 
 ## Features
-**1. Movie booking system:** <br> Allows users to browse available movies, view showtimes, and create bookings for selected shows.
+**1. Movie booking system:** <br> Allows users to browse available movies, view showtimes, and create bookings for selected shows. <br>
 **2. Seat reservation:** <br> Enables users to select specific seats for a chosen showtime with real-time availability checking to prevent double booking.
 **3. User management:** <br> Supports different user roles (e.g., customer, staff, admin) with basic account data stored in the system.
 **4. Payment handling:** <br> Manages booking payments, including payment status (e.g., pending, confirmed, refunded).
