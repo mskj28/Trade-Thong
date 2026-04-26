@@ -10,10 +10,17 @@
    python -m venv venv
    ```
 3. Activate Virtual Environment
-   
+   **Windows**
+   ```bash
+   venv\Scripts\activate
+    ```
+   **mac**
+   ```bash
+   source venv/bin/activate
+    ```
    for windows: ``` venv\Scripts\activate ```
    for mac: ``` source venv/bin/activate ```
-4. Install Dependencies
+5. Install Dependencies
    ``` bash
    pip install -r requirements.txt
    ```
@@ -32,11 +39,11 @@
    DB_PASSWORD=your_mysql_password
    DB_NAME=cinema
    ```
-8. Setup Database
+7. Setup Database
    6.1. Open MySQL
    6.2. Run the SQL script provided in this project
    6.3. This will create all required tables, views, and sample data
-9. Run Backend
+8. Run Backend
    ``` bash
    cd cn230-cinema-booking-system/backend
    ```
