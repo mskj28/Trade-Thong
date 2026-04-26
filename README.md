@@ -18,7 +18,7 @@
    ```bash
    source venv/bin/activate
     ```
-5. Install Dependencies
+4. Install Dependencies
    ``` bash
    pip install -r requirements.txt
    ```
@@ -27,7 +27,7 @@
    pip list
    ```
    You should see: `Flask, mysql-connector-python, python-dotenv`
-6. Environment Configuration
+5. Environment Configuration
    **For Windows**
    ```bash
    copy .env.example .env
@@ -43,11 +43,11 @@
    DB_PASSWORD=your_mysql_password  
    DB_NAME=cinema  
    ```
-8. Setup Database
+6. Setup Database  
    6.1. Open MySQL  
    6.2. Run the SQL script provided in this project  
    6.3. This will create all required tables, views, and sample data  
-9. Run Backend
+7. Run Backend
    ``` bash
    cd cn230-cinema-booking-system/backend
    ```
