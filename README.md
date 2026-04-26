@@ -26,7 +26,7 @@ backend/
 ├── db.py
 ├── config.py
 ├── requirements.txt
-├── .env.example
+└── .env.example
 ```
 
 ## Project Setup
