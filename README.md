@@ -1,4 +1,4 @@
-`**Project Setup**```
+```**Project Setup**```
 1. Clone the repository
    ```git clone https://github.com/WuBingXue49/cn230-cinema-booking-system.git```
    `cd cn230-cinema-booking-system/backend`
