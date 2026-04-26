@@ -9,13 +9,14 @@
    ``` bash
    python -m venv venv
    ```
-4. Activate Virtual Environment
+3. Activate Virtual Environment
+   
    for windows: ``` venv\Scripts\activate ```
    for mac: ``` source venv/bin/activate ```
-5. Install Dependencies
+4. Install Dependencies
    `pip install -r requirements.txt`
    To verify installation: `pip list` You should see: Flask, mysql-connector-python, python-dotenv
-6. Environment Configuration
+5. Environment Configuration
    for windows: `copy .env.example .env`
    for mac: `cp .env.example .env `
    Then edit the .env file:
@@ -23,11 +24,11 @@
    DB_USER=root
    DB_PASSWORD=your_mysql_password
    DB_NAME=cinema
-7. Setup Database
-   7.1. Open MySQL
-   7.2. Run the SQL script provided in this project
-   7.3. This will create all required tables, views, and sample data
-9. Run Backend
+6. Setup Database
+   6.1. Open MySQL
+   6.2. Run the SQL script provided in this project
+   6.3. This will create all required tables, views, and sample data
+7. Run Backend
    `cd cn230-cinema-booking-system/backend`
    `python app.py`
 
@@ -41,3 +42,8 @@
 1. Backend: Flask
 2. Database: MySQL
 3. Environment: Python (venv)
+
+| for windows | **Windows** |
+| for mac | **Mac/Linux** |
+| open MySQL and SQL script | **Open MySQL and run the SQL script** |
+| go to .env file | **edit the `.env` file** |
