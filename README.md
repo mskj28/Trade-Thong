@@ -18,9 +18,11 @@ This project is a cinema booking system that allows users to browse movies, sele
 
 ## Database Design 
 ER Diagram (Full View):  
-https://canva.link/h8gbjaoj3cw3ecw
+- ER Diagram: [View here](https://canva.link/h8gbjaoj3cw3ecw)
 ER Diagram Preview:  
-![ER Diagram](docs/er-diagram.png)
+<p align="center">
+  <img src="docs/er-diagram.png" width="600">
+</p>
 
 ## Project Structure
 ```bash
