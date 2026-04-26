@@ -63,7 +63,6 @@
 
 ## Tech Stack
 1. Backend: Flask <br> A lightweight Python web framework used to build RESTful APIs and handle server-side logic. <br>
-2. Database: MySQL <br> Relational database used to store all system data such as users, movies, bookings, and payments.
-<br>
-3. Environment: Python (venv) <br> Virtual environment used to isolate project dependencies and ensure consistent setup across different machines.
+2. Database: MySQL <br> Relational database used to store all system data such as users, movies, bookings, and payments. <br>
+3. Environment: Python (venv) <br> Virtual environment used to isolate project dependencies and ensure consistent setup across different machines. <br>
 
