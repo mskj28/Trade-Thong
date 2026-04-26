@@ -22,10 +22,16 @@ This project is a cinema booking system that allows users to browse movies, sele
 ```bash
 backend/
 ├── app.py
+├── auth.py
 ├── routes/
+|    ├──booking.py
+|    ├──movies.py
+|    ├──showtime.py
+|    └──user.py
 ├── db.py
 ├── config.py
 ├── requirements.txt
+├──.env
 └── .env.example
 ```
 
