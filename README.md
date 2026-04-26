@@ -19,6 +19,7 @@ This project is a cinema booking system that allows users to browse movies, sele
 ## Database Design (ADD ER IF POSSIBLE)
 
 ## Project Structure
+```bash
 backend/
 ├── app.py
 ├── routes/
@@ -26,6 +27,7 @@ backend/
 ├── config.py
 ├── requirements.txt
 ├── .env.example
+```
 
 ## Project Setup
 1. Clone the repository
