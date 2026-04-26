@@ -1,7 +1,7 @@
 # Cinema Booking System
 ## Project Setup
 1. Clone the repository
-   ```git clone https://github.com/WuBingXue49/cn230-cinema-booking-system.git```
+   ```bash git clone https://github.com/WuBingXue49/cn230-cinema-booking-system.git
    `cd cn230-cinema-booking-system/backend`
 2. Create Virtual Environment
    `python -m venv venv`
@@ -21,13 +21,13 @@
    `cd cn230-cinema-booking-system/backend`
    `python app.py`
 
-**Features**
+## Features
 1. Movie booking system
 2. Seat reservation
 3. User management
 4. Payment handling
 
-**Tech Stack**
+## Tech Stack
 1. Backend: Flask
 2. Database: MySQL
 3. Environment: Python (venv)
