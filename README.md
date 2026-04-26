@@ -16,7 +16,7 @@ This project is a cinema booking system that allows users to browse movies, sele
 5. The system must calculate total price automatically
 6. The system must manage payment status
 
-## Database Design (ADD ER IF POSSIBLE)
+## Database Design (ER LINK) [https://canva.link/h8gbjaoj3cw3ecw]
 
 ## Project Structure
 ```bash
