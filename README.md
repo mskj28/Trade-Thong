@@ -6,14 +6,16 @@
    cd cn230-cinema-booking-system/backend
    ```
 2. Create Virtual Environment
-   ``` python -m venv venv ```
-3. Activate Virtual Environment
+   ``` bash
+   python -m venv venv
+   ```
+4. Activate Virtual Environment
    for windows: ``` venv\Scripts\activate ```
    for mac: ``` source venv/bin/activate ```
-4. Install Dependencies
+5. Install Dependencies
    `pip install -r requirements.txt`
    To verify installation: `pip list` You should see: Flask, mysql-connector-python, python-dotenv
-5. Environment Configuration
+6. Environment Configuration
    for windows: `copy .env.example .env`
    for mac: `cp .env.example .env `
    Then edit the .env file:
