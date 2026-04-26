@@ -1,8 +1,8 @@
 # Cinema Booking System
 ## Project Setup
 1. Clone the repository
-   ```
-   bash git clone https://github.com/WuBingXue49/cn230-cinema-booking-system.git
+   ``` bash
+   git clone https://github.com/WuBingXue49/cn230-cinema-booking-system.git
    cd cn230-cinema-booking-system/backend
    ```
 2. Create Virtual Environment
@@ -12,14 +12,20 @@
    for mac: ``` source venv/bin/activate ```
 4. Install Dependencies
    `pip install -r requirements.txt`
-   To check if you have all required packages: `pip list` you should see: Flask, mysql-connector-python, python-dotenv
+   To verify installation: `pip list` You should see: Flask, mysql-connector-python, python-dotenv
 5. Environment Configuration
    for windows: `copy .env.example .env`
    for mac: `cp .env.example .env `
-   after that go to .env file and change DB_PASSWORD = your_mysql_password
-6. Setup Database
-   open MySQL and SQL script in this project
-7. Run Backend
+   Then edit the .env file:
+   DB_HOST=localhost
+   DB_USER=root
+   DB_PASSWORD=your_mysql_password
+   DB_NAME=cinema
+7. Setup Database
+   7.1. Open MySQL
+   7.2. Run the SQL script provided in this project
+   7.3. This will create all required tables, views, and sample data
+9. Run Backend
    `cd cn230-cinema-booking-system/backend`
    `python app.py`
 
