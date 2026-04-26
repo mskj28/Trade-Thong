@@ -39,9 +39,7 @@ backend/
 |    └──user.py
 ├── db.py
 ├── config.py
-├── requirements.txt
-├──.env
-└── .env.example
+└── requirements.txt
 ```
 
 ## Project Setup
@@ -50,20 +48,7 @@ backend/
    git clone https://github.com/WuBingXue49/cn230-cinema-booking-system.git
    cd cn230-cinema-booking-system/backend
    ```
-2. Create Virtual Environment
-   ``` bash
-   python -m venv venv
-   ```
-3. Activate Virtual Environment  
-   **For Windows**
-   ```bash
-   venv\Scripts\activate
-    ```
-   **For Mac**  
-   ```bash
-   source venv/bin/activate
-    ```
-4. Install Dependencies
+2. Install Dependencies
    ``` bash
    pip install -r requirements.txt
    ```
@@ -71,28 +56,21 @@ backend/
    ``` bash
    pip list
    ```
-   You should see: `Flask, mysql-connector-python, python-dotenv`
-5. Environment Configuration
-   **For Windows**
-   ```bash
-   copy .env.example .env
-    ```
-   **For Mac**  
-   ```bash
-   cp .env.example .env
-    ```
-   Then edit the .env file:
+   You should see: `Flask, mysql-connector-python`
+3. Edit config.py file
    ```
-   DB_HOST=localhost  
-   DB_USER=root  
-   DB_PASSWORD=your_mysql_password  
-   DB_NAME=cinema  
+   config = {
+    'host': 'localhost',
+    'user': 'root',
+    'password': 'DB_PASS', -> Change DB_PASS to your database password
+    'database': 'cinema'
+    }
    ```
-6. Setup Database  
+4. Setup Database  
    6.1. Open MySQL  
    6.2. Run the SQL script provided in this project  
    6.3. This will create all required tables, views, and sample data  
-7. Run Backend
+5. Run Backend
    ``` bash
    cd cn230-cinema-booking-system/backend
    ```
