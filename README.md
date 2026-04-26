@@ -1,5 +1,9 @@
-# Cinema Booking System
+# Movy: Cinema Booking System
 
+## Member: 
+6710
+6710615177 น.ส. ฟาร์ริดา มูลรังษี
+6710615219 น.ส. มิ่งขวัญ ใสกระจ่าง
 ## Project Overview
 This project is a cinema booking system that allows users to browse movies, select showtimes, reserve seats, and manage bookings with payment handling through a database-driven backend.
 
