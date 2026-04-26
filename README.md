@@ -1,7 +1,7 @@
 **Project Setup**
 1. Clone the repository
-   - `git clone https://github.com/WuBingXue49/cn230-cinema-booking-system.git`
-   - `cd cn230-cinema-booking-system/backend`
+   ```git clone https://github.com/WuBingXue49/cn230-cinema-booking-system.git```
+   `cd cn230-cinema-booking-system/backend`
 2. Create Virtual Environment
    `python -m venv venv`
 3. Activate Virtual Environment
