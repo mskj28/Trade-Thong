@@ -6,7 +6,7 @@
    cd cn230-cinema-booking-system/backend
    ```
 2. Create Virtual Environment
-   ``` python -m venv venv
+   ``` python -m venv venv ```
 3. Activate Virtual Environment
    for windows: ``` venv\Scripts\activate ```
    for mac: ``` source venv/bin/activate ```
