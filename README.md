@@ -54,3 +54,8 @@
 1. Backend: Flask
 2. Database: MySQL
 3. Environment: Python (venv)
+
+**Windows**
+**Mac/Linux**
+Open MySQL and run the SQL script
+Edit the `.env` file
