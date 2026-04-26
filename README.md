@@ -1,4 +1,12 @@
 # Cinema Booking System
+
+## Project Overview
+This project is a cinema booking system that allows users to browse movies, select showtimes, reserve seats, and manage bookings with payment handling through a database-driven backend.
+
+## Stakeholders
+1. Customer – Browse movies, book seats, make payments
+2. Staff – Manage bookings and verify transactions
+3. Admin – Manage movies, showtimes, and users
 ## Project Setup
 1. Clone the repository
    ``` bash
