@@ -56,10 +56,10 @@
    ```
 
 ## Features
-1. Movie booking system: <br> Allows users to browse available movies, view showtimes, and create bookings for selected shows.
-2. **Seat reservation:** Enables users to select specific seats for a chosen showtime with real-time availability checking to prevent double booking.
-3. User management: Supports different user roles (e.g., customer, staff, admin) with basic account data stored in the system.
-4. Payment handling: Manages booking payments, including payment status (e.g., pending, confirmed, refunded).
+**1. Movie booking system:** <br> Allows users to browse available movies, view showtimes, and create bookings for selected shows.
+**2. Seat reservation:** <br> Enables users to select specific seats for a chosen showtime with real-time availability checking to prevent double booking.
+**3. User management:** <br> Supports different user roles (e.g., customer, staff, admin) with basic account data stored in the system.
+**4. Payment handling:** <br> Manages booking payments, including payment status (e.g., pending, confirmed, refunded).
 
 ## Tech Stack
 1. Backend: Flask
