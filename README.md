@@ -32,6 +32,14 @@ ER Diagram Preview:
 backend/
 ├── app.py
 ├── auth.py
+├── backend/
+|    ├──README.md
+|    └──requirements.txt
+├── static/
+|    ├──script.js
+|    └──style.css
+├── templates/
+|    └──index.html
 ├── routes/
 |    ├──booking.py
 |    ├──movies.py
@@ -39,6 +47,10 @@ backend/
 |    └──user.py
 ├── db.py
 ├── config.py
+├── .env.example
+├── .gitignore
+├── SQL_Script.sql
+├── README.md
 └── requirements.txt
 ```
 
@@ -56,14 +68,18 @@ backend/
    ``` bash
    pip list
    ```
-   You should see: `Flask, mysql-connector-python`
+   You should see: `Flask, mysql-connector-python, python-dotenv`
 3. Edit config.py file
    ```
-   config = {
-    'host': 'localhost',
-    'user': 'root',
-    'password': 'DB_PASS', -> Change DB_PASS to your database password
-    'database': 'cinema'
+   import os
+    from dotenv import load_dotenv
+    load_dotenv()
+
+    config = {
+    "host": os.getenv("DB_HOST", "localhost"),
+    "user": os.getenv("DB_USER", "root"),
+    "password": os.getenv("DB_PASSWORD", "your_password"), -> Change your_password to your database password
+    "database": os.getenv("DB_NAME", "cinema"),
     }
    ```
 4. Setup Database  
@@ -72,11 +88,12 @@ backend/
    6.3. This will create all required tables, views, and sample data  
 5. Run Backend
    ``` bash
-   cd cn230-cinema-booking-system/backend
+   cd cn230-cinema-booking-system
    ```
    ``` bash
    python app.py
    ```
+6. Open `http://127.0.0.1:5000`, and you should see the demo webpage
 
 ## Features
 1. Movie booking system: <br> Allows users to browse available movies, view showtimes, and create bookings for selected shows. <br>
